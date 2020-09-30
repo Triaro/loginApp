@@ -6,7 +6,7 @@
 
     <StackLayout>
       <Button class="btn btn-primary" @tap="goToHome">Home</Button>
-      <Button class="btn btn-primary" @tap="goToSignUp">SignUP</Button>
+      <Button class="btn btn-primary" @tap="goToSignUp">SignUp</Button>
       <Button class="btn btn-primary" @tap="goToLogin">Login</Button>
     </StackLayout>
    </FlexboxLayout>

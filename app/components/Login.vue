@@ -69,7 +69,6 @@ export default {
   }
 
   .icon-margin {
-    color: white;
     margin-right: 10;
   }
 
