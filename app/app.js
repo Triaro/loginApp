@@ -1,6 +1,6 @@
 import Vue from 'nativescript-vue'
-import Home from './components/Home'
-//import Login from './components/Login'
+//import Home from './components/Home'
+import Login from './components/Login'
 
 import router from './router';
 
@@ -12,5 +12,5 @@ Vue.config.silent = (TNS_ENV === 'production')
 new Vue({
  
 
-  render: h => h('frame', [h(Home)])
+  render: h => h('frame', [h(Login)])
 }).$start()

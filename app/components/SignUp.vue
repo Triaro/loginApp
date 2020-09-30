@@ -8,7 +8,7 @@
         <StackLayout class="container">
           <FlexboxLayout alignItems="center" class="border-bottom">
             <Image src="~/images/icon_user.png" width="16" height="16" class="icon-margin" />
-            <TextField v-model="usernameInput" hint="Full Name" class="form-input" />
+            <TextField v-model="nameInput" hint="Full Name" class="form-input" />
           </FlexboxLayout>
          
           <FlexboxLayout alignItems="center" class="border-bottom">
@@ -29,7 +29,7 @@
 
            <FlexboxLayout alignItems="center" class="border-bottom">
             <Image src="~/images/icon_lock.png" width="16" height="16" class="icon-margin" />
-            <TextField v-model="passwordInput" hint="Confirm Password" secure="true" class="form-input" />
+            <TextField v-model="confirmPasswordInput" hint="Confirm Password" secure="true" class="form-input" />
           </FlexboxLayout>
 
           <Button text="Login" class="my-button" />

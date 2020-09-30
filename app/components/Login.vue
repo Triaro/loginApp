@@ -49,6 +49,8 @@ export default {
 </script>
 
 <style lang="scss">
+
+
   .border-bottom {
     border-bottom-width: 1;
     border-bottom-color: white;
@@ -57,11 +59,17 @@ export default {
   }
 
   .form-input {
+    caret-color: white;
     color: white;
-    placeholder-color: white;
+    font-size: 20px;
+    placeholder-color: rgb(118, 194, 156);
+    border-bottom-right-radius: 100px;
+    margin-bottom: -10px;
+    
   }
 
   .icon-margin {
+    color: white;
     margin-right: 10;
   }
 
