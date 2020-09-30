@@ -59,11 +59,11 @@ export default {
   }
 
   .form-input {
-    caret-color: white;
     color: white;
     font-size: 20px;
     placeholder-color: rgb(118, 194, 156);
-    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100;
+    border-bottom-right-radius: 100;
     margin-bottom: -10px;
     
   }
